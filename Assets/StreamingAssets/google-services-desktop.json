@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "523365021957",
+    "firebase_url": "https://afox-mmo-project.firebaseio.com",
+    "project_id": "afox-mmo-project",
+    "storage_bucket": "afox-mmo-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523365021957:android:d667ce8acd6a2c5b825f6c",
+        "android_client_info": {
+          "package_name": "com.Afox.MMOProject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523365021957-ah1d61lv6cbactq8dqoqvilfqntpaf33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2DqtRD-um5nbp2FMdQuTme4fT25da6-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523365021957-ah1d61lv6cbactq8dqoqvilfqntpaf33.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "523365021957-gli3iegit9sig49qljt7660f24sprnok.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Afox.MMOProject"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
