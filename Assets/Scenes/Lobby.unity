@@ -769,6 +769,15 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
+  - name: RipPaper
+    clip: {fileID: 8300000, guid: 32bc535e374b2f744858ef862f3e4ecc, type: 3}
+    volume: 1
+    volumeVariance: 0.1
+    pitch: 1
+    pitchVariance: 0.2
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
 --- !u!4 &252405712
 Transform:
   m_ObjectHideFlags: 0
