@@ -37,7 +37,10 @@ public class CardController : MonoBehaviour, IPointerDownHandler, IPointerUpHand
         canvasGroup = GetComponent<CanvasGroup>();
         initialPosition = new Vector3(rectTransform.localPosition.x, rectTransform.localPosition.y, rectTransform.localPosition.z);
 
-        rectTransform.localPosition = hand.localPosition;
+        if (hand != null)
+        {
+            rectTransform.localPosition = hand.localPosition;
+        }
     }
 
     public void UpdateValues()
@@ -56,7 +59,10 @@ public class CardController : MonoBehaviour, IPointerDownHandler, IPointerUpHand
 
         image.sprite = GetSprite();
 
-        moldure.color = Owner == Player.P1 ? cfg.P1Color : cfg.P2Color;
+        if (cfg != null)
+        {
+            moldure.color = Owner == Player.P1 ? cfg.P1Color : cfg.P2Color;
+        }
     }
 
     private Sprite GetSprite()
