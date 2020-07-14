@@ -133,7 +133,7 @@ public class CardController : MonoBehaviour, IPointerDownHandler, IPointerUpHand
 
     private bool CanDrag()
     {
-        return !isPlaced && Owner == Player.P1 && !gm.IsMoveBlocked;
+        return !isPlaced && Owner == Player.P1 && gm != null && !gm.IsMoveBlocked;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
